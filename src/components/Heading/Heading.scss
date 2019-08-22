@@ -1,0 +1,22 @@
+h1 {
+  color: #ffffff;
+}
+
+.main {
+
+  &-head {
+    color: #ff0036;
+  }
+
+  &-question {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+
+    &_black {
+      h1 {
+        color: black;
+      }
+    }
+  }
+}
