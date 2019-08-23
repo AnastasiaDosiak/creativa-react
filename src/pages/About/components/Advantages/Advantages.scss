@@ -1,0 +1,52 @@
+.about-scroll {
+    padding: 0;
+    list-style: none;
+}
+
+.about-button {
+    width: 60px;
+    height: 45px;
+    border: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-scroll-heading {
+    width: 566px;
+    border: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: start;
+}
+
+.about-button-text {
+    height: 86px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 1em 1em 0.8em 1em;
+    margin-top: -1px;
+}
+
+
+.about-button-after {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 9px;
+margin-left: 10px;
+}
+
+.about-button-after:hover {
+    color: #ff0036;
+}
+
+
