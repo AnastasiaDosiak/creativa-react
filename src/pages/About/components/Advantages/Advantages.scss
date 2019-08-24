@@ -1,6 +1,8 @@
 .about-scroll {
     padding: 0;
     list-style: none;
+    
+ 
 }
 
 .about-button {
@@ -9,23 +11,20 @@
     border: 1px solid #e7e7e7;
     background-color: #f7f7f7;
     text-decoration: none;
-    color: #262626;
+    color: #ff0036;
     font-family: Raleway;
     font-size: 20px;
     font-weight: 500;
 }
 
 .about-scroll-heading {
-    width: 566px;
+    width: 450px;
     border: 1px solid #e7e7e7;
     background-color: #f7f7f7;
     margin-bottom: 9px;
-    display: flex;
-    justify-content: start;
 }
 
 .about-button-text {
-    height: 86px;
     border: 1px solid #e7e7e7;
     background-color: #ffffff;
     color: #505050;
@@ -41,12 +40,27 @@
     font-family: Raleway;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 9px;
-margin-left: 10px;
 }
 
-.about-button-after:hover {
-    color: #ff0036;
+.about-img {
+    width: 570px;
 }
 
-
+.about-text-imgs {
+    margin-top: 102px;
+    margin-left: 117px;
+    width: 1500px;
+}
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.btn-placeholder{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    
+}

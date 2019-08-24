@@ -18,17 +18,20 @@ class Advantages extends React.Component {
         return (
             <ul className="about-scroll">
                 <li className="about-scroll-heading">
+                 <div className="btn-placeholder">
                     <button className="about-button" onClick={this.handleClick}>
                         {this.state.isDescriptionVisible ? '-' : '+'}
                     </button>
                     <span className="about-button-after">
                         {this.props.title}
                     </span>
+                  </div>
                     {this.state.isDescriptionVisible && <p className="about-button-text">
                        {this.props.description}
               </p>}
                 </li>
             </ul>
+      
         );
     }
 }
