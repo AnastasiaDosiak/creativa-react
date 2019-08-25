@@ -1,8 +1,6 @@
 .about-scroll {
     padding: 0;
     list-style: none;
-    
- 
 }
 
 .about-button {
@@ -15,6 +13,7 @@
     font-family: Raleway;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .about-scroll-heading {
@@ -40,24 +39,9 @@
     font-family: Raleway;
     font-size: 20px;
     font-weight: 500;
+  color: #ff0036;
 }
 
-.about-img {
-    width: 570px;
-}
-
-.about-text-imgs {
-    margin-top: 102px;
-    margin-left: 117px;
-    width: 1500px;
-}
-.About {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
 .btn-placeholder{
         display: flex;
         align-items: center;
